@@ -1,2 +1,2 @@
 # Calculator
-Development of a calculator application
+Development of a calculator application in c# 
