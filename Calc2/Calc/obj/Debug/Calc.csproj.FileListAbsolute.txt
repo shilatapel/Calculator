@@ -1,0 +1,10 @@
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\obj\Debug\Calc.Form1.resources
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.cache
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\obj\Debug\Calc.pdb
+C:\Users\TOSHIBA\source\repos\shilatapel\Calculator\Calc\Calc\obj\Debug\Calc.csproj.AssemblyReference.cache
