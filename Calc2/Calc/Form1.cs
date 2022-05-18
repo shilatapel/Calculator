@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-
+  //10**2-5
 
 //Another solution is to use stacks with the importance of order of operations
 
@@ -9,7 +9,7 @@ namespace Calc2
 {
     public partial class Form1 : Form
     {
-
+        private bool isOpClicked = false;
         public Form1()
         {
             InitializeComponent();
@@ -43,9 +43,10 @@ namespace Calc2
 
         //number clicked
         private void btnClick(object sender, EventArgs e)
-        {   
+        {
             if (txtScreen.Text == "0")
               txtScreen.Clear();
+            isOpClicked = false;
             Button button = (Button)sender;
                 txtScreen.Text += button.Text;
         }
@@ -54,7 +55,11 @@ namespace Calc2
         private void btnOperClick(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            txtScreen.Text += button.Text;
+            if (!isOpClicked)               //  if clicked on one of the operator buttons again, op only show 1 time in screen  
+            {
+                txtScreen.Text += button.Text;
+                isOpClicked = true;
+            }
         }
 
         // equal button clicked
@@ -76,3 +81,26 @@ namespace Calc2
      }
     
 }
+
+
+
+
+
+//I have another soluion  if code libraries are allowed to be used
+/*
+ * using System;
+using System.Data;
+public class Calc
+{
+    public static void Main(string[] args)
+    {
+        var res = new DataTable().Compute("10*2+5", null);
+        Console.WriteLine(res);
+    }
+}
+
+
+//DataTable represents a single table in memory. Used for data storage
+//The DataTable.Compute method is used to perform operations on DataTable data. It can be used to perform cumulative operations on line data. For example calculation
+//syntax public Object Compute (String expression,String filter)
+   */
