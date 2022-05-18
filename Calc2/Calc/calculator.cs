@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 
-//Another solution is to use a cartridge with the importance of order of operations
+//Another solution is to use a stack with the importance of order of operations
 namespace Calc2
 {
     class calculator
