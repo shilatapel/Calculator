@@ -65,18 +65,14 @@ namespace Calc2
         // equal button clicked
         private void btnEqu_Click(object sender, EventArgs e)
         {
-            int res = 0;
             lbl1.Text = txtScreen.Text;
-            res =calculator.Calculation(txtScreen.Text);
-            txtScreen.Text = Convert.ToString(res);
+            txtScreen.Text = Convert.ToString(calculator.Calculation(txtScreen.Text));
         }
-
 
 
         private void Form1_Load(object sender, EventArgs e)
         {
         }
-
        
      }
     
